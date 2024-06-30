@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+
+# Solution
+firmware = 'target/riscv32imc-unknown-none-elf/release/blinky'
+elf = 'target/riscv32imc-unknown-none-elf/release/blinky'

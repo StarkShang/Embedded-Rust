@@ -1,0 +1,17 @@
+[package]
+name = "mcpwm"
+version = "0.1.0"
+authors = ["Stark Shang <stark.shang@outlook.com>"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+esp-hal = { version = "0.18.0", features = ["esp32"] }
+esp-backtrace = { version = "0.12.1", features = [
+    "esp32",
+    "panic-handler",
+    "exception-handler",
+    "println",
+] }
+esp-println = { version = "0.9.1", features = ["esp32", "uart"] }
+critical-section = "1.1.2"
